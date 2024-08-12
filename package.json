@@ -1,0 +1,21 @@
+{
+  "name": "website-scraping",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node.js command-line application that takes in the URL of the web site, discovers the links from this URL and recursively scrapes all the text content.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasilyl1/website-scrapping.git"
+  },
+  "keywords": [],
+  "author": "Vasilyl1",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
