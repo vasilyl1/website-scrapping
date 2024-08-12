@@ -38,9 +38,9 @@ Step 4: launch the app by typing: node index.js or NPM start
 
 Command line syntax to run the app:
 
-npm start <URL> <filename_with_relative_path>
+npm start <-URL address> <filename_with_relative_path>
 
-<URL> is the address of the target HTML web site page to scrap, take the root page
+<-URL address> is the address of the target HTML web site page to scrap, take the root page
 <filename_with_relative_path> is the name of the file used to write the scraped text content. Note that if that parameter is missing, the tool will just print the content on the console.
 
 
